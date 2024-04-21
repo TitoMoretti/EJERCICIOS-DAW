@@ -1,0 +1,3 @@
+Actividad - Clase 3 ERNESTO MORETTI
+
+Añadir un archivo form.html y crear un formulario de contacto básico utilizando de forma libre los inputs de formularios dados en la clase. El formulario debe contener al menos: inputs type text, email, select, radio ó check y un campo para ingresar texto libre con un botón "enviar" para enviar los datos ingresados, un botón "cancelar" que vuelva a index.html y un botón "reset" que borre los datos cargados en el formulario.

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - MORETTI</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1>
+    <p>Por favor, le pedimos que ingrese sus datos:</p>
+    
+    <form action="mailto:ernestojmoretti@gmail.com?SUBJECT=FORMULARIO" target="_blank" method="post" enctype="text/plain">
+        <!-- Nombre -->
+        <div>
+            <label for="nameId">Nombre:</label>
+            <br>
+            <input type="text" name="name" id="nameId" required>
+        </div>
+        <br>
+        <!-- Apellido -->
+        <div>
+            <label for="lastnameId">Apellido:</label>
+            <br>
+            <input type="text" name="lastname" id="lastnameId" required>
+        </div>
+        <br>
+        <!-- Edad -->
+        <div>
+            <label for="ageId">Edad:</label>
+            <br>
+            <input type="number" name="age" id="ageId" min="18" placeholder="Mayor de 18" required>
+        </div>
+        <br>
+        <!-- Nombre de Usuario -->
+        <div>
+            <label for="userId">Nombre de Usuario:</label>
+            <br>
+            <input type="text" name="user" id="userId" required>
+        </div>
+        <br>
+        <!-- Email -->
+        <div>
+            <label for="emailId">Email:</label>
+            <br>
+            <input type="email" name="email" id="emailId" required>
+        </div>
+        <br>
+        <!-- Tipo de Documento -->
+        <div>
+            <label for="">Tipo de Documento:</label>
+            <select name="document" id="documentId" required>
+                <option value="1">DNI</option>
+                <option value="2">CUIL</option>
+            </select>
+        </div>
+        <br>
+        <!-- Número de Documento -->
+        <div>
+            <label for="nrodocumentId">Número de Documento:</label>
+            <br>
+            <input type="number" name="nrodocument" id="nrodocumentId" required>
+        </div>
+        <br>
+        <!-- Fecha de Nacimiento -->
+        <div>
+            <label for="dateId">Fecha de Nacimiento:</label>
+            <input type="date" name="date" id="dateId" required>
+        </div>
+        <br>
+        <!-- Dirección -->
+        <div>
+            <label for="addressId">Dirección:</label>
+            <br>
+            <input type="text" name="address" id="addressId" required>
+        </div>
+        <br>
+        <!-- Teléfono -->
+        <div>
+            <label for="phonenumberId">Teléfono:</label>
+            <br>
+            <input type="number" name="phonenumber" id="phonenumberId" placeholder="+54" required>
+        </div>
+        <br>
+        <!-- Contraseña -->
+        <div>
+            <label for="passwordId">Contraseña:</label>
+            <br>
+            <input type="password" name="password" id="passwordId" maxlength="16" minlength="5" required>
+        </div>
+        <br>
+        <!-- Información Adicional -->
+        <div>
+            <label for="commentId">Información Adicional:</label>
+            <br>
+            <textarea name="comment" id="commentId" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <br>
+        <!-- Botones -->
+        <div>
+            <input type="submit" value="Enviar">
+            <a href="index.html"><button type="button">Cancelar</button></a>
+            <input type="reset" value="Reestablecer">
+        </div>
+    </form>
+</body>
+</html>
