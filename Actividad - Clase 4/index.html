@@ -7,46 +7,71 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body id="body">
+<body class="body">
     <!--Cabecera-->
     <header>
+        <div class="NavTop">
+            <nav>
+                <!--Menú de navegación-->
+                <button class="MenuButton"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAH1JREFUWEft1UEKwCAMBVG9eW9ecdeFONQgJDDdhkj6/Gpvyb6ebJ7mQLQjCilEAlQvlaGX/iZYX2LshBxoipfKUDAiZ+0KkdtO6KHmYH25vsf+o/r7Yky3ZcGInLV77MmtlJCvPb326YQof1fqpUJ9RYAWVUghEqC6GSKhAeG2CiXgqE5rAAAAAElFTkSuQmCC"/></button>
+                <a class="ItemNavTop" href="">Argentina</a>
+                <a class="ItemNavTop" href="">Colombia</a>
+                <a class="ItemNavTop" href="">España</a>
+                <a class="ItemNavTop" href="">México</a>
+                <a class="ItemNavTop" href="">Perú</a>
+                <a class="ItemNavTop" href="">Mundo</a>
+                <a class="ItemNavTop" href="">Últimas Noticias</a>
+                <a class="ItemNavTop" href="">Entretenimiento</a>
+                <a class="ItemNavTop" href="">Deportes</a>
+                <a class="ItemNavTop" href="">Tendencias</a>
+                <a class="ItemNavTop" href="">Qué puedo ver</a>
+                <a class="ItemNavTop" href="">Tecno</a>
+                <button class="SignupButton">REGISTRARME</button>
+                <button class="LoginButton">INICIAR SESIÓN</button>
+            </nav>
+        </div>
         <!--Logo de Infobae-->
-        <img src="images/logo_infobae_naranja.svg" class="LogoInfobae" alt="Logo Infobae html">
-        <nav class="Nav-Header">
-            <!--Distintas secciones-->
-            <a class="Item-Nav-Header" href="">Últimas Noticias</a>   
-            <a class="Item-Nav-Header" href="">Deportes</a> 
-            <a class="Item-Nav-Header" href="">Tendencias</a> 
-            <a class="Item-Nav-Header" href="">Tecnología</a> 
-            <a class="Item-Nav-Header" href="">Entretenimiento</a> 
-            <a class="Item-Nav-Header" href="">Qué Puedo Ver</a> 
-            <a class="Item-Nav-Header" href="">Leamos</a> 
-            <a class="Item-Nav-Header" href="">Newsletters</a> 
-        </nav>
+        <img src="images/logo_infobae_naranja.svg" class="LogoInfobaeTop" alt="Logo Infobae html">
+        <div>
+            <nav class="NavBottom">
+                <!--Distintas secciones-->
+                <a class="ItemNavBottom" href="">Últimas Noticias</a>   
+                <a class="ItemNavBottom" href="">Deportes</a> 
+                <a class="ItemNavBottom" href="">Tendencias</a> 
+                <a class="ItemNavBottom" href="">Tecnología</a> 
+                <a class="ItemNavBottom" href="">Entretenimiento</a> 
+                <a class="ItemNavBottom" href="">Qué Puedo Ver</a> 
+                <a class="ItemNavBottom" href="">Leamos</a> 
+                <a class="ItemNavBottom" href="">Newsletters</a> 
+            </nav>
+        </div>
     </header>
 
     <!--Artículo-->
     <main>
-        <section class="Header-Article">
-            <!--Tipo de artículo-->
-            <div><a class="Tag-Section-Article" href="">Agencias</a></div>
-            <!--Título-->
-            <div><h1 class="Title">La serie 'The Bear' tendrá una cuarta temporada, según Deadline</h1></div>
-            <!--Autor-->
-            <div class="Author-Section">
-                <span>Por </span> <span class="Author">Newsroom Infobae</span>
-            </div>
-        </section>
-        <section>
-            <!--Contenido de la noticia-->
-            <article class="Article">
+        <article>
+            <section class="HeaderArticle">
+                <!--Tipo de artículo-->
+                <div>
+                    <a class="TagSectionArticle" href="">Agencias</a>
+                    <button class="RelatedButton"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAMhJREFUWEft1VEKwjAQhOHtTbyKR/GkepN6FBloQIQysfMLRTYvfdg2/TJNN0udbCwn81SD3BfphDohl4Cr/90eumwrfrqVz9aThIRZq0qY63adfe/ufQlImPeEEFQCEuZOoxKQYsdRKQhHESAURYEwFAlCUL8AqR2MoR51q6rHbIMiQaNRHsboQQqEYCgQhiFAKCYF4ZgU9Hm4fvU37f11yaYe55jmRjBpQqMRCjbdZ1w/ShJycx+qN8jF1gl1Qi4BV+895BJ6AeknMSXn2f4kAAAAAElFTkSuQmCC"/></button>
+                </div>
+                <!--Título-->
+                <div><h1 class="TitleArticle">La serie 'The Bear' tendrá una cuarta temporada, según Deadline</h1></div>
+                <!--Autor-->
+                <div class="AuthorArticle">
+                    <span>Por </span> <span class="Author">Newsroom Infobae</span>
+                </div>
                 <!--Fecha de publicación-->
-                <div class="Upload-Section"><p class="Upload">14 Mar, 2024 07:00 p.m. AR</p></div>
-                <div class="Article-Content">
+                <div class="UploadArticle"><p class="Upload">14 Mar, 2024 07:00 p.m. AR</p></div>
+            </section>
+            <!--Contenido de la noticia-->
+            <section>
+                <div class="ContentArticle">
                     <!--Imágen-->
-                    <div><img class="Article-Image" src="images/QBLUO4QCLVHATIJ3WXOPJR3CXA.jpg" alt="Foto The Bear"></div>
+                    <div><img class="ImageArticle" src="images/QBLUO4QCLVHATIJ3WXOPJR3CXA.jpg" alt="Foto The Bear"></div>
                     <!--Texto-->
-                    <div class="Article-Text">
+                    <div class="TextArticle">
                         <p>Washington, 14 mar (EFE).- 'The Bear', que en la pasada edición de los premios Emmy se coronó como la mejor serie de comedia, tendrá una cuarta temporada, informó este jueves el medio especializado Deadline.</p>
                         <p>Esa producción anunció en noviembre que iba a tener una tercera temporada y distintas fuentes confirmaron a la revista que también habrá una cuarta.</p>
                         <p>El canal FX de Hulu, donde se emite, ha rechazado comentar la noticia.</p>
@@ -54,8 +79,8 @@
                         <p>'The Bear' se destacó en enero pasado en los Emmy como mejor serie de comedia y ganó el premio a mejor actor protagonista de comedia. También obtuvo el reconocimiento de mejor dirección de comedia, mejor guion, mejor actriz (Ayo Edebiri) y actor de reparto (Ebon Moss-Bachrach).</p>
                     </div>
                 </div>
-            </article> 
-        </section>
+            </section>
+        </article>
     </main>
 
     <footer class="Footer">
@@ -64,41 +89,41 @@
                 <div class="Socials">
                     <!--Logo de Infobae-->
                     <img src="images/logo_infobae_naranja.svg" alt="Logo Infobae html" width="200">
-                </div>
-                <p>Seguinos!</p>
-            </div>
-            <div class="Column">
-                <span class="Column-Title">Secciones</span>
-                <div class="Column-Content">
-                    <a href="">América</a>
-                    <a href="">Colombia</a>
-                    <a href="">España</a>
-                    <a href="">Mexico</a>
-                    <a href="">RSSr</a>
-                    <a href="">Perú</a>
-                    <a href="">Últimas Noticias</a>
+                    <p>Seguinos!</p>
                 </div>
             </div>
             <div class="Column">
-                <span class="Column-Title">Contáctenos</span>
-                <div class="Column-Content">
-                <a href="">Contacto</a>
-                <a href="">Redacción</a>
-                <a href="">Contacto Comercial</a>
-                <a href="">Media Kit</a> 
-                <a href="">Empleo</a> 
+                <span class="TitleColumn">Secciones</span>
+                <div>
+                    <a class="ContentColumn" href="">América</a>
+                    <a class="ContentColumn" href="">Colombia</a>
+                    <a class="ContentColumn" href="">España</a>
+                    <a class="ContentColumn" href="">Mexico</a>
+                    <a class="ContentColumn" href="">RSS</a>
+                    <a class="ContentColumn" href="">Perú</a>
+                    <a class="ContentColumn" href="">Últimas Noticias</a>
                 </div>
             </div>
             <div class="Column">
-                <span class="Column-Title">Legales</span>
-                <div class="Column-Content">
-                    <a href="">Términos y Condiciones</a>
-                    <a href="">Política de Privacidad</a>
+                <span class="TitleColumn">Contáctenos</span>
+                <div>
+                    <a class="ContentColumn" href="">Contacto</a>
+                    <a class="ContentColumn" href="">Redacción</a>
+                    <a class="ContentColumn" href="">Contacto Comercial</a>
+                    <a class="ContentColumn" href="">Media Kit</a> 
+                    <a class="ContentColumn" href="">Empleo</a> 
+                </div>
+            </div>
+            <div class="Column">
+                <span class="TitleColumn">Legales</span>
+                <div>
+                    <a class="ContentColumn" href="">Términos y Condiciones</a>
+                    <a class="ContentColumn" href="">Política de Privacidad</a>
                 </div>
             </div>
         </div>
         <div class="Copyright">
-            <span class="Copyright-Content">
+            <span class="ContentCopyright">
                 Todos Los Derechos Reservados © 
                 2024 
                 Infobae

@@ -1,76 +1,135 @@
-#body {
+.body {
+    font-family: Roboto, sans-serif;
+}
+
+.NavTop {
+    background-color: #fff;
+    box-shadow: 0 2px 5px #00000042;
+    display: table;
+    height: 100%;
+    padding-bottom: 7px;
     padding-left: 16px;
     padding-right: 16px;
-    
-    font-family: Roboto,sans-serif;
-    margin: 0 auto;
+    padding-top: 9px; 
+    text-align: center;
+    width: 100%;  
 }
 
-main, header {
-    max-width: 1236px;
-    margin: 0 auto;
+.MenuButton {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    height: 19px;
+    margin-left: 0;
+    margin-right: auto;
+    position: static;
+    width: 28px;
 }
 
-.LogoInfobae{
+.ItemNavTop {
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.SignupButton {
+    background: #fde8cc;
+    border: 1px solid #fde8cc;
+    border-radius: 100px;
+    color: #3b3b3b;
+    column-gap: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 32px;
+    margin-left: 40px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 132px;
+}
+
+.LoginButton {
+    background-color: transparent;
+    border: 1px solid #c2c2c2;
+    border-radius: 100px;
+    color: #3b3b3b;
+    column-gap: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 32px;
+    margin-left: 12px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 132px;
+}
+
+.LogoInfobaeTop {
     height: 65px;
-    width: 280px;
+    margin-top: 90px;
     padding: 18.5px;
-    margin: 0;
     width: 100%;
 }
 
-.Nav-Header {
+.NavBottom {
     border-bottom: 1px solid #d5d5d5;
-    align-items: center;
     border-top: 1px solid #d5d5d5;
     color: #555;
-    display: flex;
-    flex-wrap: wrap;
     gap: 32px;
     height: 32px;
-    justify-content: center;
+    margin: 0 auto;
+    max-width: 1236px;
     padding:  0px;
-    flex-direction: column;
-    margin: 0 auto 16px;
-}
-
-.Item-Nav-Header {
-    font-size: 14px;
-    line-height: 30px;
-    text-decoration: none;
-    color: inherit;
-}
-
-.Header-Article {
-    border-bottom: 1px solid #d5d5d5;
-    margin-bottom: 16px;
+    text-align: center;
     }
 
-.Tag-Section-Article {
-    align-items: center;
-    display: flex;
+.ItemNavBottom {
+    color: inherit;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 40px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.HeaderArticle {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    max-width: 1236px;
+    padding:  0px;
+}
+
+.TagSectionArticle {
+    color:black;
     font-size: 16px;
-    margin-bottom: 12px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.Title {
-    font-size: 46px;
-    font-weight: 700;
-    margin: 0 0 16px;
-    color: #1f1f1f;
-    display: block;
-    line-height: 1.2;
-    padding-bottom: 10px;
-    flex-direction: row;
-    min-height: 42px;
+.RelatedButton {
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: fit-content;
 }
 
-.Author-Section {
-    font-size: 16px;
+.TitleArticle {
+    color: #1f1f1f;
+    display: block;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 16px;
+    padding-bottom: 10px;
+}
+
+.AuthorArticle {
+    border-bottom: 1px solid #d5d5d5;
     color: #3b3b3b;
-    flex-direction: row;
+    font-size: 16px;
     min-height: 42px;
 }
 
@@ -78,39 +137,39 @@ main, header {
     font-weight: bold;
 }
 
-.Article {
-    padding: 0;
-}
-
-.Upload-Section {
+.UploadArticle {
     margin-bottom: 16px;
+    padding-top: 10px;
 }
 
 .Upload {
-    color: #555;
+    color: #555555bd;
     font-size: 16px;
     font-weight: 300;
-    padding-top: 1px;
 }
 
-.Article-Content {
+.ContentArticle {
     color: #1f1f1f;
     letter-spacing: normal;
-}
-
-.Article-Image{
-    width: 100%;
-    height: auto;
+    margin: 0 auto;
     margin-bottom: 16px;
+    margin-top: 16px;
+    max-width: 1236px;
+    padding:  0px;
 }
 
-.Article-Text {
+.ImageArticle {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.TextArticle {
+    color: #1f1f1f;
     font-size: 22px;
     font-weight: 300;
-    text-align: left;
-    color: #1f1f1f;
     line-height: 1.7;
     margin-bottom: 24px;
+    text-align: justify;
 }
 
 .Footer {
@@ -119,64 +178,64 @@ main, header {
     padding: 26px 24px 64px;
     position: relative;
     width: 100%;
-    margin-top: 0;
-
-}
+    }
 
 .Menu {
-    display: grid;
-    grid-template-columns: 100%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    max-width: 1236px;
+    padding:  0px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .Column {
-    color: #fafafa;
-    margin-bottom: 40px;
-    align-items: center;
-    text-align: center;
-}
-
-.Socials {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    padding: 0;
-    width: 100%;
-}
-
-.Column-Title {
-    font-size: 16px;
-    font-weight: 700;
+    display: table-cell;
     line-height: 19px;
 }
 
-.Column-Content > a {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0;
-    justify-content: center;
-    margin-top: 8px;
-    flex-direction: column;
-    text-decoration: none;
+.Socials {
+    font-size: 14px;
+    display: table-cell;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.TitleColumn {
     color: #fafafa;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ContentColumn {
+    color: #fafafa;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .Copyright {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 24px;
-    align-self: center;
+    border-top: 1px solid #d5d5d5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 60px;
+    max-width: 1236px;
+    padding:  0px;
+    padding-top: 20px;
+    text-align: center;
 }
 
-.Copyright-Content {
-    border-top: 1px solid #d5d5d5;
-    padding-top: 20px;
+.ContentCopyright {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
+    padding-top: 20px;
     text-align: center;
 }
