@@ -1,0 +1,276 @@
+.body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: #0066ff;
+    box-shadow: 0 2px 5px #00000042;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.LogoTop {
+    height: 40px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+.navContainer {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.navContainer a {
+    display: none;
+}
+
+#MenúTop {
+    background-color: transparent;
+    border: none;
+    margin-right: 0;
+}
+
+#RegisterButton, #LoginButton {
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 100px;
+    color: #3b3b3b;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 10px;
+    padding: 0 12px;
+    text-transform: uppercase;
+    width: 132px;
+}
+
+.Web {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navNews{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.Section {
+    border-top: #0066ff 10px solid;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.Article {
+    border: #333 solid;
+    border-bottom: 15px solid;
+    border-left: 7px solid;
+    border-top: 15px solid;
+    border-right: 7px solid;
+}
+
+.articleImage {
+    border-bottom: #0066ff 5px solid;
+    border-top: #0066ff 5px solid;
+    height: auto;
+    width: 100%;
+}
+
+.articleImageTop {
+    border-bottom: #0066ff 5px solid;
+    border-top: #0066ff 5px solid;
+    height: 95px;
+    width: 163px;
+}
+
+.articleTitle {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.articleTitleTop {
+    border-bottom: #0066ff 10px solid;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    padding-right: 15px;
+}
+
+.articleMoreTop {
+    color: black;
+    display: none;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #0066ff;
+    color: #fff;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.LogoRosarioNewsFooter {
+    display: block;
+    height: 45px;
+    margin: auto;
+    width: 335px;
+}
+
+.MenúFooter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.SectionFooter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 50px;
+    }
+
+.SectionTitleFooter {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.SectionFooter a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.Copyright {
+    border-top: 1px solid #d5d5d5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 60px;
+    max-width: 1236px;
+    padding:  0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    .navContainer {
+        justify-content: flex-start;
+    }
+    
+    .navSection {
+        flex-direction: row;
+    }
+    
+    .MenúFooter {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    
+    .SectionTitleFooter {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {     
+    .navContainer {
+        justify-content: space-between;
+    }
+    
+    .navContainer a {
+        display: block;
+    }
+
+    .child {
+        margin-right: 50px;
+    }
+    
+    #HeaderA {
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .Web {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .navSection {
+        flex-direction: row;
+    }
+
+    aside {
+        border-left: #0066ff 10px solid;
+        margin-top: 20px;
+    }
+
+    .articleMoreTop {
+        display: block;
+    }
+    
+    .MenúFooter {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    
+    .SectionTitleFooter {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+
