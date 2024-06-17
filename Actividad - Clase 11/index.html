@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="icon" href="logo/iconHead.png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body id="body">
+    <header id="Header">
+        <img id="logoHeader" src="images/logoHeader.png" alt="LogoHeader">
+        <h1 id="titleHeader">The Rick and Morty API</h1>
+        <h2 id="subtitleHeader">Hecho por Ernesto J. Moretti</h2>
+    </header>
+    <main id="main">
+        <button id="getCharactersButton">Obtener Personajes</button>
+        <ul id="charactersList"></ul>
+
+        <div id="filters"></div>
+            <input type="text" id="nameFilter" placeholder="Nombre">
+            <input type="text" id="statusFilter" placeholder="Status">
+            <input type="text" id="speciesFilter" placeholder="Especie">
+            <input type="text" id="typeFilter" placeholder="Tipo">
+            <input type="text" id="genderFilter" placeholder="Género">
+            <button id="filterButton">Filtrar</button>
+        </div>
+    </main>
+    <footer id="footer">
+        <section id="Copyright">
+            <span>
+                Todos Los Derechos Reservados © 
+                2024 
+                Ernesto J. Moretti
+            </span>
+        </section>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
