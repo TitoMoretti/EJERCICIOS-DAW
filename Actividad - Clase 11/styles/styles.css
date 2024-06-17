@@ -1,0 +1,114 @@
+#body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Header {
+    align-items: center;
+    background-color: #e1ff00;
+    box-shadow: 0 2px 5px #00000042;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#logoHeader {
+    height: 150px;
+    margin-bottom: -30px;
+    margin-left: 10px;
+    margin-top: -50px;
+    width: 400px;
+}
+
+#titleHeader {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#subtitleHeader{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#main {
+    align-items: center;
+    background-color: #6fc655;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+#getCharactersButton{
+    background-color: #c360db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #00000042;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#charactersList {
+    background-color: #c360db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #00000042;
+    padding: 30px;
+}
+
+#nameFilter, #statusFilter, #speciesFilter, #typeFilter, #genderFilter {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#filterButton{
+    background-color: #c360db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #00000042;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#footer{
+    background-color: #4949458c;
+    color: #333;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+}
+
+#Copyright{
+    align-items: center;
+    background-color: #e1ff00;
+    box-shadow: 0 2px 5px #00000042;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+}
